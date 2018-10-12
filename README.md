@@ -31,5 +31,9 @@
 
 [DiffUtil](https://developer.android.com/reference/android/support/v7/util/DiffUtil)：用于diff两组数据，分发itemChange,insert,move,remove等，与RecyclerView联用。配合AsyncListDiffer（封装了线程操作）
 
+[SnapHelper](https://developer.android.com/reference/android/support/v7/widget/SnapHelper)：方便Recycler实现各种动画效果，如ViewPager的效果
 
+[lottie](https://github.com/airbnb/lottie-android)：Airbnb开源的动画库
+
+[DanmakuFlameMaster](https://github.com/Bilibili/DanmakuFlameMaster)：B站开源的弹幕引擎
 
