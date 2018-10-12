@@ -1,32 +1,35 @@
 
 # Android高级工具整理
 
-DexKnife：解决MultidexEnable之后，由于主包过大，仍然65536的bug（配置如何分包）
+[DexKnife](https://github.com/ceabie/DexKnifePlugin)：解决MultidexEnable之后，由于主包过大，仍然65536的bug（配置如何分包）
 
-FatGradle：把很多个module打成一个包的plugin
+[android-fat-aar](https://github.com/adwiv/android-fat-aar)：把很多个module打成一个包的plugin
 
-Freeline：加速构建
+[Freeline](https://github.com/alibaba/freeline)：加速构建
 
-Flipper：高级调试工具
+[Flipper](https://github.com/facebook/flipper)：高级调试工具，支持自定义插件
 
-Appium：自动化测试
+[Appium](https://github.com/appium/appium)：自动化测试
 
-FirebaseTestlab：自动化测试
+[FirebaseTestlab](https://firebase.google.com/docs/test-lab/)：自动化测试平台
 
-Espresso：自动化测试
+[Espresso](https://developer.android.com/training/testing/espresso/)：Google官方自动化测试
 
-Asyncinflater：异步inflate
+[AsyncLayoutInflater](https://developer.android.com/reference/android/support/v4/view/AsyncLayoutInflater)：Android support 包支持的异步inflate
 
-Spannable/StaticLayout：富文本
+[Spannable](https://developer.android.com/reference/android/text/Spannable)：富文本
 
-Protobuf：替代json
+[StaticLayout](https://developer.android.com/reference/android/text/StaticLayout)：textView内部使用该类来完成文字的计算和绘制的，可以提出来单独使用
 
-Glide：图片
+[Protobuf](https://developers.google.com/protocol-buffers/)：替代json
 
-Okio：高级点儿的文件操作
+[Glide](https://github.com/bumptech/glide)：图片
 
-GT：生成性能报表
+[Okio](https://github.com/square/okio)：高级点儿的文件操作(okhttp内部使用的I/O)
 
-DiffUtil：用于diff两组数据，分发itemChange,insert,move,remove等，与RecyclerView联用。
+[GT](https://github.com/Tencent/GT)：生成性能报表
 
-AsyncListDiffer：自带线程的DiffUtil
+[DiffUtil](https://developer.android.com/reference/android/support/v7/util/DiffUtil)：用于diff两组数据，分发itemChange,insert,move,remove等，与RecyclerView联用。配合AsyncListDiffer（封装了线程操作）
+
+
+
