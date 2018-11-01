@@ -37,3 +37,7 @@
 
 [DanmakuFlameMaster](https://github.com/Bilibili/DanmakuFlameMaster)：B站开源的弹幕引擎
 
+[Jenkins](https://jenkins.io/): 自动部署，持续化继承
+
+
+
